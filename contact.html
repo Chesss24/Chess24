@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCoder</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Chess24</a>
+          <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="match.html">Matches</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Videos
+                </a>
+                <ul class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=MvXgXqfyV1k" target="_blank">Video 1</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=t4KqvGXtsdQ" target="_blank">Video 2</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="https://www.youtube.com/results?search_query=chess+matches+video+" target="_blank">Many
+                      More Videos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+          </div>
+        </div>
+      </nav>
+    <br>
+    <br>
+    <div class="container mb-auto mt-4">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1 mt-4">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group mt-4">
+                <label for="exampleFormControlSelect1">Select your Query</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Web</option>
+                    <option>Tech Stack</option>
+                    <option>Technology</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group row mt-4">
+                <div class="col-sm-2">Are you a Member?</div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Yes
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row mt-2">
+                <div class="col-sm-2">Are you a New Member?</div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck2">
+                        <label class="form-check-label" for="gridCheck2">
+                            Yes
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row mt-2">
+                <div class="col-sm-2">Are you a Professional Player?</div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Yes
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group mt-4">
+                <label for="exampleFormControlTextarea1">Tell us about yourself</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group mt-4 mb-2">
+                <label for="exampleFormControlTextarea2">Elabrate your Concern</label>
+                <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+            </div>
+            <div class="text-md-left">
+                <a class="btn btn-muted btn-outline-info"
+                    onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+    </div>
+
+    </form>
+    <footer class="container text-center mb-4">
+        <p><a href="#"> Back to top</a></p>
+    </footer>
+    <hr class="w-60  mx-auto mt-2">
+</body>
+
+</html>
